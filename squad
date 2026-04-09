@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Squad</title>
+</head>
+<body class="bg-slate-100">
+    <nav class="bg-[#1e3a8a] border-b-4 border-[#d4af37] p-4 sticky top-0 z-50 text-center">
+        <div class="text-[#d4af37] font-black text-xl mb-2">MEMOIRS 2026</div>
+        <div class="flex justify-center gap-4 text-white text-[10px] font-bold uppercase">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="squad.html" class="text-[#d4af37]">Squad</a>
+        </div>
+    </nav>
+
+    <header class="bg-[#1e3a8a] py-10 px-6 text-center">
+        <h1 class="text-3xl font-bold text-white">THE <span class="text-[#d4af37]">HUMSS</span> SQUAD</h1>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-2xl p-6 shadow-md border-t-4 border-[#1e3a8a] text-center">
+            <div class="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden border-2 border-[#d4af37]">
+                <img src="https://via.placeholder.com/150" alt="Friend" class="w-full h-full object-cover">
+            </div>
+            <h3 class="font-bold text-[#1e3a8a]">Name Here</h3>
+            <p class="text-[10px] text-gray-400 font-bold uppercase tracking-tighter mb-4">The Bestfriend</p>
+            <p class="text-sm text-gray-600 italic border-t pt-4">"Keep moving forward!"</p>
+        </div>
+        
+        </main>
+</body>
+</html>
