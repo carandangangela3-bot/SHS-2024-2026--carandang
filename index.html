@@ -6,30 +6,49 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>SHS Memoirs | Home</title>
 </head>
-<body class="bg-[#1e3a8a]">
-    <nav class="bg-[#1e3a8a] border-b-4 border-[#d4af37] p-4 sticky top-0 z-50">
+<body class="bg-[#1e3a8a] text-white font-sans overflow-x-hidden">
+
+    <nav class="sticky top-0 z-50 bg-[#1e3a8a]/90 backdrop-blur-md border-b-4 border-[#fbbf24] px-6 py-4">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div class="text-[#d4af37] font-black text-xl tracking-tighter">MEMOIRS 2026</div>
-            <ul class="flex flex-wrap justify-center gap-4 text-white text-[10px] md:text-xs font-bold uppercase tracking-widest">
-                <li><a href="index.html" class="text-[#d4af37]">Home</a></li>
-                <li><a href="gallery.html" class="hover:text-[#d4af37]">Gallery</a></li>
-                <li><a href="achievements.html" class="hover:text-[#d4af37]">Achievements</a></li>
-                <li><a href="squad.html" class="hover:text-[#d4af37]">Squad</a></li>
+            <div class="text-[#fbbf24] font-black text-2xl tracking-tighter">MEMOIRS <span class="text-white font-light">2026</span></div>
+            <ul class="flex gap-6 text-[10px] md:text-xs font-bold uppercase tracking-widest">
+                <li><a href="index.html" class="text-[#fbbf24]">Home</a></li>
+                <li><a href="gallery.html" class="hover:text-[#fbbf24] transition">Gallery</a></li>
+                <li><a href="achievements.html" class="hover:text-[#fbbf24] transition">Achievements</a></li>
+                <li><a href="squad.html" class="hover:text-[#fbbf24] transition">Squad</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="min-h-[80vh] flex items-center justify-center px-6 text-center">
-        <div class="max-w-3xl">
-            <h1 class="text-4xl md:text-7xl font-extrabold text-white leading-tight">
-                Senior High <span class="text-[#d4af37]">Legacy</span>
+    <header class="relative min-h-[90vh] flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-6 py-12">
+        
+        <div class="w-full md:w-1/2 text-center md:text-left z-10 mb-10 md:mb-0">
+            <h2 class="text-[#fbbf24] font-bold tracking-widest text-sm mb-2">HUMSS STUDENT @ MNHS</h2>
+            <h1 class="text-5xl md:text-8xl font-black leading-none tracking-tighter mb-6">
+                MY SHS <br> <span class="text-[#fbbf24]">JOURNEY</span>
             </h1>
-            <p class="mt-6 text-blue-100 text-sm md:text-lg">Capturing every HUMSS moment from Grade 11 to graduation. Welcome to my digital scrapbook.</p>
-            <div class="mt-10 flex flex-col md:flex-row gap-4 justify-center">
-                <a href="gallery.html" class="bg-[#d4af37] text-[#1e3a8a] px-8 py-3 rounded-full font-bold shadow-lg">View Photos</a>
-                <a href="squad.html" class="border border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white/10">Meet the Squad</a>
+            <p class="text-blue-100 text-lg max-w-md mb-8">
+                Welcome to my digital space. This is where I keep every achievement, every memory, and every friend I made along the way.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="gallery.html" class="bg-[#fbbf24] text-[#1e3a8a] px-10 py-4 rounded-full font-black uppercase shadow-2xl hover:scale-105 transition-transform">Explore Photos</a>
             </div>
         </div>
+
+        <div class="w-full md:w-1/2 relative flex justify-center items-end">
+            <div class="absolute w-64 h-64 md:w-[450px] md:h-[450px] bg-[#fbbf24] rounded-full blur-3xl opacity-20 animate-pulse"></div>
+            <div class="absolute w-48 h-48 md:w-[350px] md:h-[350px] border-8 border-[#fbbf24] rounded-full"></div>
+            
+            <img src="your-profile.png" alt="My Portrait" class="relative z-10 w-full max-w-[300px] md:max-w-[500px] drop-shadow-2xl">
+        </div>
+
     </header>
+
+    <div class="bg-[#fbbf24] py-4 w-full overflow-hidden whitespace-nowrap">
+        <div class="flex animate-marquee space-x-12 text-[#1e3a8a] font-black text-xl italic uppercase">
+            <span>Class of 2026 • Humanities and Social Sciences • SSLG • MNHS • Class of 2026 • Humanities and Social Sciences • SSLG • MNHS • </span>
+        </div>
+    </div>
+
 </body>
 </html>
